@@ -25,23 +25,28 @@ void RowTable::Load(BaseDataLoader *loader) {
 
 int32_t RowTable::GetIntField(int32_t row_id, int32_t col_id) {
   // TODO: Implement this!
+  //判断是否越界
   if(row_id < 0 || row_id >= num_rows_ || col_id < 0 || col_id >= num_cols_){
     return -1;
   }
+  //取出数据
   char *cur_field = nullptr;
   cur_field = (char *)malloc(FIXED_FIELD_LEN);
   std::memcpy(cur_field, rows_ + (row_id * num_cols_ + col_id) * FIXED_FIELD_LEN,
               FIXED_FIELD_LEN);
   int32_t field = (*(int32_t *)cur_field);
   free(cur_field);
+  //返回数据
   return field;
 }
 
 void RowTable::PutIntField(int32_t row_id, int32_t col_id, int32_t field) {
   // TODO: Implement this!
+  //判断是否越界
   if(row_id < 0 || row_id >= num_rows_ || col_id < 0 || col_id >= num_cols_){
     return;
   }
+  //修改数据
   auto offset = (row_id * num_cols_ + col_id) * FIXED_FIELD_LEN;
   *(int32_t *)(rows_ + offset) = field;
 }
@@ -49,9 +54,11 @@ void RowTable::PutIntField(int32_t row_id, int32_t col_id, int32_t field) {
 int64_t RowTable::ColumnSum() {
   // TODO: Implement this!
   int64_t sum = 0;
+  //对第0列中的每个字段数据求和
   for(auto row_id = 0; row_id < num_rows_; row_id++){
     sum += *(int32_t *)(rows_ + row_id * num_cols_ * FIXED_FIELD_LEN);
   }
+  //返回求和结果
   return sum;
 }
 
