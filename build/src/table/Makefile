@@ -217,6 +217,33 @@ indexed_row_table.cc.s:
 	cd /home/xueqin/bytedance-database-project/build && $(MAKE) -f src/table/CMakeFiles/table_obj.dir/build.make src/table/CMakeFiles/table_obj.dir/indexed_row_table.cc.s
 .PHONY : indexed_row_table.cc.s
 
+rb_tree.o: rb_tree.cpp.o
+
+.PHONY : rb_tree.o
+
+# target to build an object file
+rb_tree.cpp.o:
+	cd /home/xueqin/bytedance-database-project/build && $(MAKE) -f src/table/CMakeFiles/table_obj.dir/build.make src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o
+.PHONY : rb_tree.cpp.o
+
+rb_tree.i: rb_tree.cpp.i
+
+.PHONY : rb_tree.i
+
+# target to preprocess a source file
+rb_tree.cpp.i:
+	cd /home/xueqin/bytedance-database-project/build && $(MAKE) -f src/table/CMakeFiles/table_obj.dir/build.make src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.i
+.PHONY : rb_tree.cpp.i
+
+rb_tree.s: rb_tree.cpp.s
+
+.PHONY : rb_tree.s
+
+# target to generate assembly for a file
+rb_tree.cpp.s:
+	cd /home/xueqin/bytedance-database-project/build && $(MAKE) -f src/table/CMakeFiles/table_obj.dir/build.make src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.s
+.PHONY : rb_tree.cpp.s
+
 row_table.o: row_table.cc.o
 
 .PHONY : row_table.o
@@ -263,6 +290,9 @@ help:
 	@echo "... indexed_row_table.o"
 	@echo "... indexed_row_table.i"
 	@echo "... indexed_row_table.s"
+	@echo "... rb_tree.o"
+	@echo "... rb_tree.i"
+	@echo "... rb_tree.s"
 	@echo "... row_table.o"
 	@echo "... row_table.i"
 	@echo "... row_table.s"

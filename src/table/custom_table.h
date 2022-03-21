@@ -1,11 +1,17 @@
 #pragma once
 #include "table.h"
+#include "column_table.h"
+#include "indexed_row_table.h"
 #include <vector>
 
 namespace bytedance_db_project {
 //
 // Custom table implementation to adapt to provided query mix.
 //
+typedef bool LabelType;
+const LabelType ColumnTable_ = false;
+const LabelType IndexedRowTable_ = true;
+
 class CustomTable : Table {
 public:
   CustomTable();
@@ -43,5 +49,8 @@ public:
   int64_t PredicatedUpdate(int32_t threshold) override;
 
 private:
+  ColumnTable ct;
+  IndexedRowTable it;
+  LabelType Label{ColumnTable_};
 };
 } // namespace bytedance_db_project

@@ -96,9 +96,22 @@ src/table/CMakeFiles/table_obj.dir/indexed_row_table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/table_obj.dir/indexed_row_table.cc.s"
 	cd /home/xueqin/bytedance-database-project/build/src/table && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xueqin/bytedance-database-project/src/table/indexed_row_table.cc -o CMakeFiles/table_obj.dir/indexed_row_table.cc.s
 
+src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o: src/table/CMakeFiles/table_obj.dir/flags.make
+src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o: ../src/table/rb_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xueqin/bytedance-database-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o"
+	cd /home/xueqin/bytedance-database-project/build/src/table && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/table_obj.dir/rb_tree.cpp.o -c /home/xueqin/bytedance-database-project/src/table/rb_tree.cpp
+
+src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/table_obj.dir/rb_tree.cpp.i"
+	cd /home/xueqin/bytedance-database-project/build/src/table && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xueqin/bytedance-database-project/src/table/rb_tree.cpp > CMakeFiles/table_obj.dir/rb_tree.cpp.i
+
+src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/table_obj.dir/rb_tree.cpp.s"
+	cd /home/xueqin/bytedance-database-project/build/src/table && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xueqin/bytedance-database-project/src/table/rb_tree.cpp -o CMakeFiles/table_obj.dir/rb_tree.cpp.s
+
 src/table/CMakeFiles/table_obj.dir/row_table.cc.o: src/table/CMakeFiles/table_obj.dir/flags.make
 src/table/CMakeFiles/table_obj.dir/row_table.cc.o: ../src/table/row_table.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xueqin/bytedance-database-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/table/CMakeFiles/table_obj.dir/row_table.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xueqin/bytedance-database-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/table/CMakeFiles/table_obj.dir/row_table.cc.o"
 	cd /home/xueqin/bytedance-database-project/build/src/table && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/table_obj.dir/row_table.cc.o -c /home/xueqin/bytedance-database-project/src/table/row_table.cc
 
 src/table/CMakeFiles/table_obj.dir/row_table.cc.i: cmake_force
@@ -112,6 +125,7 @@ src/table/CMakeFiles/table_obj.dir/row_table.cc.s: cmake_force
 table_obj: src/table/CMakeFiles/table_obj.dir/column_table.cc.o
 table_obj: src/table/CMakeFiles/table_obj.dir/custom_table.cc.o
 table_obj: src/table/CMakeFiles/table_obj.dir/indexed_row_table.cc.o
+table_obj: src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o
 table_obj: src/table/CMakeFiles/table_obj.dir/row_table.cc.o
 table_obj: src/table/CMakeFiles/table_obj.dir/build.make
 

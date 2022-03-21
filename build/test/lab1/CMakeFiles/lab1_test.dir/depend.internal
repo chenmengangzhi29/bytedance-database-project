@@ -8,6 +8,7 @@ test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o
  ../src/table/column_table.h
  ../src/table/custom_table.h
  ../src/table/indexed_row_table.h
+ ../src/table/rb_tree.h
  ../src/table/row_table.h
  ../src/table/table.h
  /home/xueqin/bytedance-database-project/test/lab1/lab1_test.cc

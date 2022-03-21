@@ -66,12 +66,14 @@ database_project_lib_EXTERNAL_OBJECTS = \
 "/home/xueqin/bytedance-database-project/build/src/table/CMakeFiles/table_obj.dir/column_table.cc.o" \
 "/home/xueqin/bytedance-database-project/build/src/table/CMakeFiles/table_obj.dir/custom_table.cc.o" \
 "/home/xueqin/bytedance-database-project/build/src/table/CMakeFiles/table_obj.dir/indexed_row_table.cc.o" \
+"/home/xueqin/bytedance-database-project/build/src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o" \
 "/home/xueqin/bytedance-database-project/build/src/table/CMakeFiles/table_obj.dir/row_table.cc.o"
 
 src/libdatabase_project_lib.so: src/data/CMakeFiles/data_obj.dir/csv_data_loader.cc.o
 src/libdatabase_project_lib.so: src/table/CMakeFiles/table_obj.dir/column_table.cc.o
 src/libdatabase_project_lib.so: src/table/CMakeFiles/table_obj.dir/custom_table.cc.o
 src/libdatabase_project_lib.so: src/table/CMakeFiles/table_obj.dir/indexed_row_table.cc.o
+src/libdatabase_project_lib.so: src/table/CMakeFiles/table_obj.dir/rb_tree.cpp.o
 src/libdatabase_project_lib.so: src/table/CMakeFiles/table_obj.dir/row_table.cc.o
 src/libdatabase_project_lib.so: src/CMakeFiles/database_project_lib.dir/build.make
 src/libdatabase_project_lib.so: src/CMakeFiles/database_project_lib.dir/link.txt

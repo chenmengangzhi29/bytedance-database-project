@@ -7,6 +7,7 @@ test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/include/univ.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/column_table.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/custom_table.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/indexed_row_table.h
+test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/rb_tree.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/row_table.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../src/table/table.h
 test/lab1/CMakeFiles/lab1_test.dir/lab1_test.cc.o: ../test/lab1/lab1_test.cc

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cbc72/fast && /usr/bin/make -f CMakeFiles/cmTC_cbc72.dir/build.make CMakeFiles/cmTC_cbc72.dir/build
+Run Build Command(s):/usr/bin/make cmTC_fb033/fast && /usr/bin/make -f CMakeFiles/cmTC_fb033.dir/build.make CMakeFiles/cmTC_fb033.dir/build
 make[1]: 进入目录“/home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cbc72.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cbc72.dir/src.c.o   -c /home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_cbc72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbc72.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_cbc72.dir/src.c.o  -o cmTC_cbc72 
-/usr/bin/ld: CMakeFiles/cmTC_cbc72.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_fb033.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fb033.dir/src.c.o   -c /home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fb033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb033.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_fb033.dir/src.c.o  -o cmTC_fb033 
+/usr/bin/ld: CMakeFiles/cmTC_fb033.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cbc72.dir/build.make:87：cmTC_cbc72] 错误 1
+make[1]: *** [CMakeFiles/cmTC_fb033.dir/build.make:87：cmTC_fb033] 错误 1
 make[1]: 离开目录“/home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_cbc72/fast] 错误 2
+make: *** [Makefile:121：cmTC_fb033/fast] 错误 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fc55c/fast && /usr/bin/make -f CMakeFiles/cmTC_fc55c.dir/build.make CMakeFiles/cmTC_fc55c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_73840/fast && /usr/bin/make -f CMakeFiles/cmTC_73840.dir/build.make CMakeFiles/cmTC_73840.dir/build
 make[1]: 进入目录“/home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_fc55c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fc55c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fc55c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc55c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fc55c.dir/CheckFunctionExists.c.o  -o cmTC_fc55c  -lpthreads 
+Building C object CMakeFiles/cmTC_73840.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_73840.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73840.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_73840.dir/CheckFunctionExists.c.o  -o cmTC_73840  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_fc55c.dir/build.make:87：cmTC_fc55c] 错误 1
+make[1]: *** [CMakeFiles/cmTC_73840.dir/build.make:87：cmTC_73840] 错误 1
 make[1]: 离开目录“/home/xueqin/bytedance-database-project/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_fc55c/fast] 错误 2
+make: *** [Makefile:121：cmTC_73840/fast] 错误 2
 
 
 

@@ -186,6 +186,84 @@ csv_data_loader_test/fast:
 	$(MAKE) -f test/lab1/CMakeFiles/csv_data_loader_test.dir/build.make test/lab1/CMakeFiles/csv_data_loader_test.dir/build
 .PHONY : csv_data_loader_test/fast
 
+#=============================================================================
+# Target rules for targets named put_get_test
+
+# Build rule for target.
+put_get_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 put_get_test
+.PHONY : put_get_test
+
+# fast build rule for target.
+put_get_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/put_get_test.dir/build.make test/lab2/CMakeFiles/put_get_test.dir/build
+.PHONY : put_get_test/fast
+
+#=============================================================================
+# Target rules for targets named predicated_update_test
+
+# Build rule for target.
+predicated_update_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 predicated_update_test
+.PHONY : predicated_update_test
+
+# fast build rule for target.
+predicated_update_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/predicated_update_test.dir/build.make test/lab2/CMakeFiles/predicated_update_test.dir/build
+.PHONY : predicated_update_test/fast
+
+#=============================================================================
+# Target rules for targets named predicated_all_columns_sum_test
+
+# Build rule for target.
+predicated_all_columns_sum_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 predicated_all_columns_sum_test
+.PHONY : predicated_all_columns_sum_test
+
+# fast build rule for target.
+predicated_all_columns_sum_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/predicated_all_columns_sum_test.dir/build.make test/lab2/CMakeFiles/predicated_all_columns_sum_test.dir/build
+.PHONY : predicated_all_columns_sum_test/fast
+
+#=============================================================================
+# Target rules for targets named predicated_column_sum_test
+
+# Build rule for target.
+predicated_column_sum_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 predicated_column_sum_test
+.PHONY : predicated_column_sum_test
+
+# fast build rule for target.
+predicated_column_sum_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/predicated_column_sum_test.dir/build.make test/lab2/CMakeFiles/predicated_column_sum_test.dir/build
+.PHONY : predicated_column_sum_test/fast
+
+#=============================================================================
+# Target rules for targets named custom_table_test
+
+# Build rule for target.
+custom_table_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 custom_table_test
+.PHONY : custom_table_test
+
+# fast build rule for target.
+custom_table_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/custom_table_test.dir/build.make test/lab2/CMakeFiles/custom_table_test.dir/build
+.PHONY : custom_table_test/fast
+
+#=============================================================================
+# Target rules for targets named column_sum_test
+
+# Build rule for target.
+column_sum_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 column_sum_test
+.PHONY : column_sum_test
+
+# fast build rule for target.
+column_sum_test/fast:
+	$(MAKE) -f test/lab2/CMakeFiles/column_sum_test.dir/build.make test/lab2/CMakeFiles/column_sum_test.dir/build
+.PHONY : column_sum_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,6 +278,12 @@ help:
 	@echo "... table_obj"
 	@echo "... lab1_test"
 	@echo "... csv_data_loader_test"
+	@echo "... put_get_test"
+	@echo "... predicated_update_test"
+	@echo "... predicated_all_columns_sum_test"
+	@echo "... predicated_column_sum_test"
+	@echo "... custom_table_test"
+	@echo "... column_sum_test"
 .PHONY : help
 
 

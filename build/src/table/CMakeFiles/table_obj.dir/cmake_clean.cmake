@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/table_obj.dir/column_table.cc.o"
   "CMakeFiles/table_obj.dir/custom_table.cc.o"
   "CMakeFiles/table_obj.dir/indexed_row_table.cc.o"
+  "CMakeFiles/table_obj.dir/rb_tree.cpp.o"
   "CMakeFiles/table_obj.dir/row_table.cc.o"
 )
 

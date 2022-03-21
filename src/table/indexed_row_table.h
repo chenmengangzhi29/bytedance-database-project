@@ -1,6 +1,8 @@
 #pragma once
 #include "table.h"
+#include "rb_tree.h"
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 namespace bytedance_db_project {
@@ -12,8 +14,10 @@ namespace bytedance_db_project {
 // to all row indices with the given value.
 class IndexedRowTable : Table {
 public:
+  IndexedRowTable();
   explicit IndexedRowTable(int32_t index_column);
-
+  ~IndexedRowTable();
+  
   // Loads data into the table through passed-in data loader. Is not timed.
   void Load(BaseDataLoader *loader) override;
 
@@ -48,7 +52,9 @@ public:
 private:
   int32_t num_cols_{0};
   int32_t num_rows_{0};
-  std::unordered_map<int32_t, std::vector<int32_t>> index_;
+  // std::unordered_map<int32_t, std::vector<int32_t>> index_;
+  std::unordered_map<int32_t, RBTree*> index_;
+  // RBTree* index_{new RBTree()};
   char *rows_{nullptr};
   int32_t index_column_{0};
 };

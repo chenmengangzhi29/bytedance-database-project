@@ -33,15 +33,31 @@ vector
 ../src/table/custom_table.h
 table.h
 ../src/table/table.h
+column_table.h
+../src/table/column_table.h
+indexed_row_table.h
+../src/table/indexed_row_table.h
 vector
 -
 
 ../src/table/indexed_row_table.h
 table.h
 ../src/table/table.h
+rb_tree.h
+../src/table/rb_tree.h
 unordered_map
 -
+unordered_set
+-
 vector
+-
+
+../src/table/rb_tree.h
+table.h
+../src/table/table.h
+unordered_set
+-
+queue
 -
 
 ../src/table/row_table.h

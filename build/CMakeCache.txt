@@ -18,7 +18,7 @@
 BUILD_LAB_1_UT:BOOL=true
 
 //false
-BUILD_LAB_2_UT:BOOL=false
+BUILD_LAB_2_UT:BOOL=true
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -273,6 +273,12 @@ database_project_test_lab1_BINARY_DIR:STATIC=/home/xueqin/bytedance-database-pro
 database_project_test_lab1_SOURCE_DIR:STATIC=/home/xueqin/bytedance-database-project/test/lab1
 
 //Value Computed by CMake
+database_project_test_lab2_BINARY_DIR:STATIC=/home/xueqin/bytedance-database-project/build/test/lab2
+
+//Value Computed by CMake
+database_project_test_lab2_SOURCE_DIR:STATIC=/home/xueqin/bytedance-database-project/test/lab2
+
+//Value Computed by CMake
 database_project_thirdparty_BINARY_DIR:STATIC=/home/xueqin/bytedance-database-project/build/thirdparty
 
 //Value Computed by CMake
@@ -391,7 +397,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
