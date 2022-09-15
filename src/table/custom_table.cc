@@ -74,4 +74,4 @@ int64_t CustomTable::PredicatedUpdate(int32_t threshold) {
     return it.PredicatedUpdate(threshold);
   }
 }
-} // namespace bytedance_db_project
+} // namespace bytedance_db_project`

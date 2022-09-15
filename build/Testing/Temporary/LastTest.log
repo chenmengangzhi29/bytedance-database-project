@@ -1,10 +1,10 @@
-Start testing: Mar 21 15:52 CST
+Start testing: Mar 23 20:55 CST
 ----------------------------------------------------------
 1/8 Testing: database_project_csv_data_loader_test
 1/8 Test: database_project_csv_data_loader_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab1/csv_data_loader_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab1
-"database_project_csv_data_loader_test" start time: Mar 21 15:52 CST
+"database_project_csv_data_loader_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -13,16 +13,16 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [----------] 1 test from CsvDataLoaderTest
 [ RUN      ] CsvDataLoaderTest.BasicTest
 [       OK ] CsvDataLoaderTest.BasicTest (0 ms)
-[----------] 1 test from CsvDataLoaderTest (0 ms total)
+[----------] 1 test from CsvDataLoaderTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (2 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_csv_data_loader_test" end time: Mar 21 15:52 CST
+"database_project_csv_data_loader_test" end time: Mar 23 20:55 CST
 "database_project_csv_data_loader_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/8 Test: database_project_lab1_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab1/lab1_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab1
-"database_project_lab1_test" start time: Mar 21 15:52 CST
+"database_project_lab1_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -41,16 +41,16 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [       OK ] Lab1Test.TestRowTable (0 ms)
 [ RUN      ] Lab1Test.TestColumnTable
 [       OK ] Lab1Test.TestColumnTable (0 ms)
-[----------] 2 tests from Lab1Test (0 ms total)
+[----------] 2 tests from Lab1Test (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 2 tests from 1 test suite ran. (0 ms total)
+[==========] 2 tests from 1 test suite ran. (2 ms total)
 [  PASSED  ] 2 tests.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_lab1_test" end time: Mar 21 15:52 CST
+"database_project_lab1_test" end time: Mar 23 20:55 CST
 "database_project_lab1_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/8 Test: database_project_column_sum_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/column_sum_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_column_sum_test" start time: Mar 21 15:52 CST
+"database_project_column_sum_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -68,19 +68,19 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [ RUN      ] ColumnSumTest.TestRowTable
 [       OK ] ColumnSumTest.TestRowTable (0 ms)
 [ RUN      ] ColumnSumTest.TestColumnTable
-[       OK ] ColumnSumTest.TestColumnTable (2 ms)
+[       OK ] ColumnSumTest.TestColumnTable (0 ms)
 [ RUN      ] ColumnSumTest.TestIndexedTable
 [       OK ] ColumnSumTest.TestIndexedTable (0 ms)
-[----------] 3 tests from ColumnSumTest (3 ms total)
+[----------] 3 tests from ColumnSumTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (3 ms total)
+[==========] 3 tests from 1 test suite ran. (4 ms total)
 [  PASSED  ] 3 tests.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_column_sum_test" end time: Mar 21 15:52 CST
+"database_project_column_sum_test" end time: Mar 23 20:55 CST
 "database_project_column_sum_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -88,7 +88,7 @@ Test Passed.
 4/8 Test: database_project_custom_table_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/custom_table_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_custom_table_test" start time: Mar 21 15:52 CST
+"database_project_custom_table_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -97,16 +97,16 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [----------] 1 test from CustomTest
 [ RUN      ] CustomTest.TestRowTable
 [       OK ] CustomTest.TestRowTable (0 ms)
-[----------] 1 test from CustomTest (0 ms total)
+[----------] 1 test from CustomTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_custom_table_test" end time: Mar 21 15:52 CST
+"database_project_custom_table_test" end time: Mar 23 20:55 CST
 "database_project_custom_table_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -114,7 +114,7 @@ Test Passed.
 5/8 Test: database_project_predicated_all_columns_sum_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/predicated_all_columns_sum_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_predicated_all_columns_sum_test" start time: Mar 21 15:52 CST
+"database_project_predicated_all_columns_sum_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -124,19 +124,19 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [ RUN      ] PredicatedAllColumnsSumTest.TestRowTable
 [       OK ] PredicatedAllColumnsSumTest.TestRowTable (0 ms)
 [ RUN      ] PredicatedAllColumnsSumTest.TestColumnTable
-[       OK ] PredicatedAllColumnsSumTest.TestColumnTable (5 ms)
+[       OK ] PredicatedAllColumnsSumTest.TestColumnTable (0 ms)
 [ RUN      ] PredicatedAllColumnsSumTest.TestIndexedTable
 [       OK ] PredicatedAllColumnsSumTest.TestIndexedTable (0 ms)
-[----------] 3 tests from PredicatedAllColumnsSumTest (5 ms total)
+[----------] 3 tests from PredicatedAllColumnsSumTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (6 ms total)
+[==========] 3 tests from 1 test suite ran. (3 ms total)
 [  PASSED  ] 3 tests.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_predicated_all_columns_sum_test" end time: Mar 21 15:52 CST
+"database_project_predicated_all_columns_sum_test" end time: Mar 23 20:55 CST
 "database_project_predicated_all_columns_sum_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -144,7 +144,7 @@ Test Passed.
 6/8 Test: database_project_predicated_column_sum_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/predicated_column_sum_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_predicated_column_sum_test" start time: Mar 21 15:52 CST
+"database_project_predicated_column_sum_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -152,21 +152,21 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [----------] Global test environment set-up.
 [----------] 3 tests from PredicatedColumnSumTest
 [ RUN      ] PredicatedColumnSumTest.RowTableTest
-[       OK ] PredicatedColumnSumTest.RowTableTest (0 ms)
+[       OK ] PredicatedColumnSumTest.RowTableTest (1 ms)
 [ RUN      ] PredicatedColumnSumTest.ColumnTableTest
 [       OK ] PredicatedColumnSumTest.ColumnTableTest (0 ms)
 [ RUN      ] PredicatedColumnSumTest.IndexedRowTableTest
 [       OK ] PredicatedColumnSumTest.IndexedRowTableTest (0 ms)
-[----------] 3 tests from PredicatedColumnSumTest (0 ms total)
+[----------] 3 tests from PredicatedColumnSumTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (1 ms total)
+[==========] 3 tests from 1 test suite ran. (2 ms total)
 [  PASSED  ] 3 tests.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_predicated_column_sum_test" end time: Mar 21 15:52 CST
+"database_project_predicated_column_sum_test" end time: Mar 23 20:55 CST
 "database_project_predicated_column_sum_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -174,7 +174,7 @@ Test Passed.
 7/8 Test: database_project_predicated_update_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/predicated_update_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_predicated_update_test" start time: Mar 21 15:52 CST
+"database_project_predicated_update_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -190,13 +190,13 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [----------] 3 tests from PredicatedUpdateTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (1 ms total)
+[==========] 3 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 3 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_predicated_update_test" end time: Mar 21 15:52 CST
+"database_project_predicated_update_test" end time: Mar 23 20:55 CST
 "database_project_predicated_update_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -204,7 +204,7 @@ Test Passed.
 8/8 Test: database_project_put_get_test
 Command: "/home/xueqin/bytedance-database-project/build/test/lab2/put_get_test"
 Directory: /home/xueqin/bytedance-database-project/build/test/lab2
-"database_project_put_get_test" start time: Mar 21 15:52 CST
+"database_project_put_get_test" start time: Mar 23 20:55 CST
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
@@ -217,7 +217,7 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 [       OK ] PutGetTest.ColumnTableTest (0 ms)
 [ RUN      ] PutGetTest.IndexedRowTableTest
 [       OK ] PutGetTest.IndexedRowTableTest (0 ms)
-[----------] 3 tests from PutGetTest (0 ms total)
+[----------] 3 tests from PutGetTest (1 ms total)
 
 [----------] Global test environment tear-down
 [==========] 3 tests from 1 test suite ran. (1 ms total)
@@ -226,8 +226,8 @@ Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"database_project_put_get_test" end time: Mar 21 15:52 CST
+"database_project_put_get_test" end time: Mar 23 20:55 CST
 "database_project_put_get_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 21 15:52 CST
+End testing: Mar 23 20:55 CST

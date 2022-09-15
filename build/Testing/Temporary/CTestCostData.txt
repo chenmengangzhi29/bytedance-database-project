@@ -1,9 +1,9 @@
-database_project_csv_data_loader_test 1 0.00481064
-database_project_lab1_test 1 0.00471536
-database_project_column_sum_test 1 0.0072968
-database_project_custom_table_test 1 0.00466589
-database_project_predicated_all_columns_sum_test 1 0.00983784
-database_project_predicated_column_sum_test 1 0.00692734
-database_project_predicated_update_test 1 0.004762
-database_project_put_get_test 1 0.00464163
+database_project_csv_data_loader_test 1 0.00530572
+database_project_lab1_test 1 0.00548542
+database_project_column_sum_test 1 0.0090828
+database_project_custom_table_test 1 0.00597513
+database_project_predicated_all_columns_sum_test 1 0.0067179
+database_project_predicated_column_sum_test 1 0.00586123
+database_project_predicated_update_test 1 0.00310752
+database_project_put_get_test 1 0.00413108
 ---
